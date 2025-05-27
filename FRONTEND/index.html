@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Chatbot</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="chat-container">
+      <!-- Logo and Title Section -->
+      <div class="header">
+        <img id="chat-logo" src="./doctor logo.png" alt="Project Logo">
+        <h1>Medical Chatbot</h1>
+      </div>
+
+      <!-- Email Input -->
+      <input type="email" id="doctor-email" placeholder="Enter your email for feedback">
+
+      <div class="chat-box">
+        <!-- Chat messages display area -->
+        <div id="chat-output"></div>
+        <!-- User input area -->
+        <textarea id="chat-input" placeholder="Type your message here..."></textarea>
+        <button id="send-btn">Send</button>
+      </div>
+
+      <!-- Score & Feedback Display -->
+      <div id="evaluation-box">
+        <h3>Evaluation</h3>
+        <p id="score">Score: N/A</p>
+        <p id="feedback">Feedback: N/A</p>
+      </div>
+
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

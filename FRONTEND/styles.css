@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background: url('./ai background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+.chat-container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    position: absolute;
+    right: 52%;
+    top: 180%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#chat-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    margin-right: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 2px solid #fff; 
+}
+
+.chat-container h1 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+}
+
+#doctor-email {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.chat-box {
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-output {
+    height: 300px;
+    overflow-y: auto;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#chat-input {
+    resize: none;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#send-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#send-btn:hover {
+    background-color: #0056b3;
+}
+
+#evaluation-box {
+    margin-top: 20px;
+    padding: 10px;
+    background: #e8f4fd;
+    border-radius: 5px;
+    display: none;
+}
+
+#evaluation-box h3 {
+    margin: 0;
+    color: #007BFF;
+}
+
+#score, #feedback {
+    font-size: 14px;
+    color: #333;
+}
