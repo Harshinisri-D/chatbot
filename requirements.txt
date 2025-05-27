@@ -14,3 +14,4 @@ langchain-community==0.0.38  # Added for compatibility
 
 # Email & Additional Dependencies
 email-validator==2.1.0.post1  # Ensures proper email formatting
+mysql-connector-python
